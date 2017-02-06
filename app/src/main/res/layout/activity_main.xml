@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:orientation="vertical"
+    tools:context="com.sky.rxjava2demo.MainActivity">
+
+    <TextView
+        android:id="@+id/main_tv_msg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""/>
+
+    <Button
+        android:id="@+id/main_btn_rx1"
+        android:text="Rx基础"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <Button
+        android:id="@+id/main_btn_rx2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Rx线程控制"/>
+    <Button
+        android:id="@+id/main_btn_rx3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Rx转换操作符"/>
+    <Button
+        android:id="@+id/main_btn_rx4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Rx过滤操作符"/>
+
+    <Button
+        android:id="@+id/main_btn_rx5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Rx Debounce操作符"/>
+</LinearLayout>
